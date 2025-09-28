@@ -23,4 +23,4 @@ It allows you to manage employees, view analytics (gender distribution, departme
 
 ---
 
-## 📁 Project structure (example)
+
