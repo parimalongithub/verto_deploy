@@ -99,16 +99,16 @@ You can add screenshots of your project here for better visualization.
 For example:  
 
 ### Dashboard Page
-![Dashboard Screenshot](screenshots/dashboard.png)
+![Dashboard Screenshot](Dashboard)
 
 ### Employee List
-![Employee List Screenshot](screenshots/employee-list.png)
+![Employee List Screenshot](Employee_list)
 
 ### Add Employee Form
-![Add Employee Screenshot](screenshots/add-employee.png)
+![Add Employee Screenshot](Addemployee)
 
 ### Edit Employee Page
-![Edit Employee Screenshot](screenshots/edit-employee.png)
+![Edit Employee Screenshot](Editemployee)
 
 *(Place your actual images in a `screenshots/` folder inside the repo and update the paths above.)*
 
