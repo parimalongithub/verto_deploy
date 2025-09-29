@@ -110,7 +110,7 @@ For example:
 ### Edit Employee Page
 ![Edit Employee Screenshot](Editemployee.png)
 
-*(Place your actual images in a `screenshots/` folder inside the repo and update the paths above.)*
+
 
 ---
 
