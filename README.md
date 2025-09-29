@@ -84,20 +84,7 @@ The backend will start at `http://localhost:8080`.
 
 SQLite is used as the database. The configuration is defined in `src/main/resources/application.properties`.
 
-### Sample `application.properties`
 
-```properties
-spring.application.name=EmployeeX
-
-spring.datasource.driver-class-name=org.sqlite.JDBC
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.format_sql=true
-
-# Optional: if you use a community SQLite dialect (add dependency if required)
-spring.jpa.database-platform=org.hibernate.community.dialect.SQLiteDialect
-```
 
 ⚠️ **Important:** Use  
 - `spring.jpa.hibernate.ddl-auto=update` → while developing, to persist data across server restarts.  
