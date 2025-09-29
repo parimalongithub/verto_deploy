@@ -80,23 +80,16 @@ The backend will start at `http://localhost:8080`.
 
 ---
 
-## ⚡ Database Configuration
+## 🚀 API Endpoints
 
-SQLite is used as the database. The configuration is defined in `src/main/resources/application.properties`.
-
-
-
-⚠️ **Important:** Use  
-- `spring.jpa.hibernate.ddl-auto=update` → while developing, to persist data across server restarts.  
-- Avoid `create-drop` unless you want data reset on every restart.
-
----
-
-## 🚀 Running the App
-
-1. Start the **backend** (Spring Boot).  
-2. Start the **frontend** (React).  
-3. Access the app at → `http://localhost:3000`
+| Method | Endpoint                   | Description                |
+|--------|----------------------------|----------------------------|
+| GET    | `/api/employees`           | Get all employees          |
+| GET    | `/api/employees/{id}`      | Get employee by ID         |
+| POST   | `/api/employees`           | Add a new employee         |
+| PUT    | `/api/employees/{id}`      | Update an existing employee|
+| DELETE | `/api/employees/{id}`      | Delete an employee by ID   |
+| GET    | `/api/employees/dashboard` | Get dashboard statistics   |
 
 ---
 
@@ -136,5 +129,24 @@ Verto-hackathon/
 - **Backend**: Spring Boot, Hibernate JPA  
 - **Database**: SQLite  
 - **Build Tools**: Maven, npm
+
+---
+
+## ⚠️ Common Errors & Fixes
+
+### 1. `Cannot load driver class: org.sqlite.JDBC`
+- Ensure the SQLite JDBC dependency is added in your `pom.xml`.
+
+### 2. `no such column: age`
+- Happens if you changed the entity but SQLite schema wasn’t updated.  
+- **Fix**: Delete `employees.db` file and restart the backend (schema will be recreated).
+
+### 3. React app doesn’t connect to backend
+- Make sure Spring Boot is running on `http://localhost:8080`.  
+- If you changed the backend port, update API URLs in `frontend/src/api.js`.
+
+### 4. `npm start` fails
+- Delete `node_modules` and run `npm install` again.  
+- Ensure you are inside the correct folder: `frontend/employee-dashboard`.
 
 ---
