@@ -21,7 +21,7 @@ It allows organizations to efficiently manage employee records with CRUD operati
 
 The project follows a **frontend-backend-database** structure:
 
-![Architecture Diagram](Untitled-2025-08-15-1117.png)
+![Architecture Diagram](architecture.png)
 
 - **Frontend** → React server (`employee-dashboard`)  
 - **Backend** → Spring Boot server (`verto`)  
