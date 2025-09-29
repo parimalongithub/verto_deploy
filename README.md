@@ -95,12 +95,22 @@ The backend will start at `http://localhost:8080`.
 
 ## 📸 Screenshots
 
-(Add your project screenshots here)
+You can add screenshots of your project here for better visualization.  
+For example:  
 
-- Dashboard Page  
-- Employee List  
-- Add Employee Form  
-- Edit Employee Page  
+### Dashboard Page
+![Dashboard Screenshot](screenshots/dashboard.png)
+
+### Employee List
+![Employee List Screenshot](screenshots/employee-list.png)
+
+### Add Employee Form
+![Add Employee Screenshot](screenshots/add-employee.png)
+
+### Edit Employee Page
+![Edit Employee Screenshot](screenshots/edit-employee.png)
+
+*(Place your actual images in a `screenshots/` folder inside the repo and update the paths above.)*
 
 ---
 
