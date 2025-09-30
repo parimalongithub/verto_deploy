@@ -13,7 +13,6 @@ It allows organizations to efficiently manage employee records with CRUD operati
 - 🔍 **Search Employees** – Quickly find employees by name or department.  
 - 📊 **Dashboard & KPIs** – Visualize employee statistics (total employees, average age, gender distribution, department distribution).  
 - ✅ **Form Validation** – Ensures proper data entry before submission.  
-- 🎨 **Clean UI** – User-friendly design with responsive layout.
 
 ---
 
