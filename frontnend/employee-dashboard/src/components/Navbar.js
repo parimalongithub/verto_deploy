@@ -15,7 +15,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-inner">
         <div className="brand">
-          <span className="dot" /> Verto Employee Manager
+          <span className="dot" /> EmployeeX
         </div>
 
         <div className="nav-actions">
